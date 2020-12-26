@@ -1,0 +1,147 @@
+.inline-block{
+    display: inline-block;
+    left: 53%;
+    bottom: 75%;
+}
+
+.logo{
+    width: 20%;
+    padding: 0%;
+}
+
+.Aboutme{
+    text-align: center;
+    font-family: "TS Block";
+    padding: 2%;
+    font-size: 20px;
+}
+
+.heroImg{
+    height: 850px;
+    padding: 0px;
+    text-align: right;
+}
+
+.content{
+    width: 1100px;
+    margin: 0 auto;
+    font-family: "TS Block";
+    font-size: 20px;
+    text-align: left;
+
+}
+
+.Skills{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+    padding: 0 50px 0 0;
+}
+
+nav{
+    width: 45%;
+    padding: 0%;
+    font-family: "TS Block";
+    font-size: 20px;
+    color: #2b2b2b;
+    position: absolute;
+    display: block;
+}
+
+h1 {
+    color: #2b2b2b;
+}
+
+ul{
+    width: 100%;
+    padding-left: 0px;
+    
+    
+}
+
+body{
+    background-color: #FAF8F4;
+    color: #7C7C79;
+
+}
+
+footer{
+    background-color: #FAF8F4;
+    width: 100%;
+    text-align: center;
+    font-family: "TS Block";
+    color: #2b2b2b;  
+    
+}
+
+footer > ul {
+    text-align: center;
+    display: inline-block; 
+    
+
+    
+    
+}
+@font-face {
+    font-family: "TS-Block";
+    src: url(font/TS_Block_Bold_copy.ttf) format("opentype");
+
+}
+
+.p {
+    font-size: 18px;
+    margin-top:10px;
+    padding: 0 150px 0 0;
+    text-align: left;
+}
+.center{
+    text-align: center;
+}
+
+.button {
+    background-color: #FAF8F4;
+    color: #2B2B2B;
+    border: 2px #2B2B2B solid;
+    font-size: 20px;
+    letter-spacing: 2px;
+    width: 540px;
+    height: 50px;
+    align-content: center;
+    text-align: center;
+    font-family: "TS Block";
+  }
+
+  a:link {
+    text-decoration: none;
+    
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: #2B2B2B;
+
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #7C7C79; 
+
+  }
+  
+  a:active {
+    text-decoration: none;
+    background-color: #2B2B2B;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .left, .right .body {
+        text-align: center;
+    }
+    .row .body {
+        flex-direction: column;
+        width: 100%;
+    }
+}
